@@ -1,0 +1,69 @@
+.modal-backdrop {
+  width: 100%;
+  background-color: #000000de;
+  padding-bottom: 2rem;
+}
+.modal-backdrop__half {
+  width: 100%;
+  height: 100vh;
+  padding-top: 10rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.modal-backdrop__description {
+  width: 60%;
+  height: 60vh;
+  margin: 0 auto;
+  padding-left: 5rem;
+  padding-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.modal-description__img {
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 15px;
+}
+.modal-description__text {
+  margin-left: 2rem;
+  color: white;
+}
+.modal-description__castList {
+  display: flex;
+  justify-content: space-between;
+}
+.person-1 {
+  width: 20%;
+
+  height: 20vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.person-2 {
+  width: 20%;
+
+  height: 20vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.person-3 {
+  width: 20%;
+
+  height: 20vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.person-4 {
+  width: 20%;
+
+  height: 20vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.trailer {
+  width: 85%;
+  margin: 0 auto;
+}

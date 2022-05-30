@@ -1,0 +1,28 @@
+.toprated-tv {
+  width: 81%;
+  margin: 0 auto;
+}
+.toprated-tv__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  overflow-x: scroll;
+  height: 407px;
+}
+.toprated-tv__header {
+  display: flex;
+  justify-content: space-between;
+}
+.toprated-tv__title h2 {
+  margin: 0.6rem 0;
+  color: white;
+}
+.toprated-tv__btn {
+  padding-top: 0.7rem;
+}
+.toprated-tv__btn button {
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  border-color: magenta;
+}

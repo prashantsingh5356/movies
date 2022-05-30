@@ -1,0 +1,70 @@
+.movie-list__container {
+  display: flex;
+  width: 81%;
+  margin: 0 auto;
+  padding: 3rem;
+  justify-content: space-between;
+  position: relative;
+  top: 6rem;
+}
+
+.movie-list__description {
+  width: 65%;
+}
+
+.movie-list__description h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+.movie-list__description p {
+  font-size: 1.2rem;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.movie-list__image {
+  width: 30%;
+  height: 60vh;
+  border-radius: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.movie-btn {
+  background-color: red;
+}
+.movie-btn__watch-now {
+  background-color: red;
+  width: 20%;
+  height: 40px;
+  border-radius: 25px;
+  color: white;
+  font-size: 1rem;
+  border-style: none;
+  cursor: pointer;
+}
+.movie-btn__watch-now:hover {
+  transform: scale(1.1);
+}
+
+.movie-btn__watch-now:active {
+  transform: scale(1);
+}
+
+.movie-btn__watch-trailer {
+  background-color: white;
+  width: 20%;
+  height: 40px;
+  margin-left: 1rem;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.movie-btn__watch-trailer:hover {
+  transform: scale(1.1);
+}
+
+.movie-btn__watch-trailer:active {
+  transform: scale(1);
+}

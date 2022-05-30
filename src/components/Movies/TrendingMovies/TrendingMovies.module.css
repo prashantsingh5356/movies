@@ -1,0 +1,28 @@
+.trending-movies {
+  width: 81%;
+  margin: 0 auto;
+}
+.trending-movies__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  overflow-x: scroll;
+  height: 407px;
+}
+.trending-movies__header {
+  display: flex;
+  justify-content: space-between;
+}
+.trending-movies__title h2 {
+  margin: 0.6rem 0;
+  color: white;
+}
+.trending-movies__btn {
+  padding-top: 0.7rem;
+}
+.trending-movies__btn button {
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  border-color: magenta;
+}
